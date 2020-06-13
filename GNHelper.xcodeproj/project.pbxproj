@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		108C73D924955E9200916A8E /* GNHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 108C73D724955E9200916A8E /* GNHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		108E3A7524955EE40062ED4A /* GNHelper.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 108E3A7424955EE40062ED4A /* GNHelper.podspec */; };
-		108E3A77249561C60062ED4A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 108E3A76249561C60062ED4A /* README.md */; };
+		108E3A7D249564FE0062ED4A /* abc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E3A7C249564FE0062ED4A /* abc.swift */; };
+		108E3A7F249565120062ED4A /* GNHelper.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 108E3A7E249565120062ED4A /* GNHelper.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		108C73D424955E9200916A8E /* GNHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		108C73D724955E9200916A8E /* GNHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNHelper.h; sourceTree = "<group>"; };
 		108C73D824955E9200916A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		108E3A7424955EE40062ED4A /* GNHelper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = GNHelper.podspec; sourceTree = SOURCE_ROOT; };
-		108E3A76249561C60062ED4A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		108E3A7C249564FE0062ED4A /* abc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abc.swift; sourceTree = "<group>"; };
+		108E3A7E249565120062ED4A /* GNHelper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = GNHelper.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +50,10 @@
 		108C73D624955E9200916A8E /* GNHelper */ = {
 			isa = PBXGroup;
 			children = (
-				108E3A76249561C60062ED4A /* README.md */,
-				108E3A7424955EE40062ED4A /* GNHelper.podspec */,
+				108E3A7E249565120062ED4A /* GNHelper.podspec */,
 				108C73D724955E9200916A8E /* GNHelper.h */,
 				108C73D824955E9200916A8E /* Info.plist */,
+				108E3A7C249564FE0062ED4A /* abc.swift */,
 			);
 			path = GNHelper;
 			sourceTree = "<group>";
@@ -101,6 +101,7 @@
 				TargetAttributes = {
 					108C73D324955E9200916A8E = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -127,8 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				108E3A77249561C60062ED4A /* README.md in Resources */,
-				108E3A7524955EE40062ED4A /* GNHelper.podspec in Resources */,
+				108E3A7F249565120062ED4A /* GNHelper.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108E3A7D249564FE0062ED4A /* abc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +269,7 @@
 		108C73DD24955E9200916A8E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = F5BFXNWMPT;
@@ -286,6 +288,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -294,6 +297,7 @@
 		108C73DE24955E9200916A8E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = F5BFXNWMPT;
