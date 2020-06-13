@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		108C73D924955E9200916A8E /* GNHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 108C73D724955E9200916A8E /* GNHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		108E3A7D249564FE0062ED4A /* abc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108E3A7C249564FE0062ED4A /* abc.swift */; };
-		108E3A7F249565120062ED4A /* GNHelper.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 108E3A7E249565120062ED4A /* GNHelper.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,7 +16,6 @@
 		108C73D724955E9200916A8E /* GNHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNHelper.h; sourceTree = "<group>"; };
 		108C73D824955E9200916A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		108E3A7C249564FE0062ED4A /* abc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abc.swift; sourceTree = "<group>"; };
-		108E3A7E249565120062ED4A /* GNHelper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = GNHelper.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +48,6 @@
 		108C73D624955E9200916A8E /* GNHelper */ = {
 			isa = PBXGroup;
 			children = (
-				108E3A7E249565120062ED4A /* GNHelper.podspec */,
 				108C73D724955E9200916A8E /* GNHelper.h */,
 				108C73D824955E9200916A8E /* Info.plist */,
 				108E3A7C249564FE0062ED4A /* abc.swift */,
@@ -128,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				108E3A7F249565120062ED4A /* GNHelper.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
