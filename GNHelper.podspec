@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/elelte/GNHelper"
   s.license      = "MIT"
   s.author       = { "elelte" => "ganalpratama@gmail.com" }
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/elelte/GNHelper.git", :branch => "master", :tag => s.version }
   s.source_files  = "GNHelper/**/*"
 end
