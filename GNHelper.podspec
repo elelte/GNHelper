@@ -1,12 +1,12 @@
-Pod::Spec.new do |spec|
-  spec.name         = "GNHelper"
-  spec.version      = "0.1.0"
-  spec.summary      = "GNHelper Framework"
-  spec.description  = "Super GNHelper Framework"
-  spec.homepage     = "https://github.com/elelte/GNHelper"
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
-  spec.author       = { "elelte" => "ganalpratama@gmail.com" }
-  spec.platform     = :ios, "10.0"
-  spec.source       = { :git => "https://github.com/elelte/GNHelper.git", :branch => "master", :tag => spec.version }
-  spec.source_files  = "GNHelper/**/*"
+Pod::Spec.new do |s|
+  s.name         = "GNHelper"
+  s.version      = "0.0.1"
+  s.summary      = "GNHelper Framework"
+  s.description  = "Super GNHelper Framework"
+  s.homepage     = "https://github.com/elelte/GNHelper"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.author       = { "elelte" => "ganalpratama@gmail.com" }
+  s.platform     = :ios, "10.0"
+  s.source       = { :git => "https://github.com/elelte/GNHelper.git", :branch => "master", :tag => s.version }
+  s.source_files  = "GNHelper/**/*"
 end

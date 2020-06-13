@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		108C73D924955E9200916A8E /* GNHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 108C73D724955E9200916A8E /* GNHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		108E3A7524955EE40062ED4A /* GNHelper.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 108E3A7424955EE40062ED4A /* GNHelper.podspec */; };
+		108E3A77249561C60062ED4A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 108E3A76249561C60062ED4A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		108C73D724955E9200916A8E /* GNHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNHelper.h; sourceTree = "<group>"; };
 		108C73D824955E9200916A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		108E3A7424955EE40062ED4A /* GNHelper.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = GNHelper.podspec; sourceTree = SOURCE_ROOT; };
+		108E3A76249561C60062ED4A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		108C73D624955E9200916A8E /* GNHelper */ = {
 			isa = PBXGroup;
 			children = (
+				108E3A76249561C60062ED4A /* README.md */,
 				108E3A7424955EE40062ED4A /* GNHelper.podspec */,
 				108C73D724955E9200916A8E /* GNHelper.h */,
 				108C73D824955E9200916A8E /* Info.plist */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				108E3A77249561C60062ED4A /* README.md in Resources */,
 				108E3A7524955EE40062ED4A /* GNHelper.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +276,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GNHelper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,6 +302,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GNHelper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
